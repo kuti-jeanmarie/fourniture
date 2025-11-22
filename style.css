@@ -123,3 +123,10 @@ h2{
 .produit button:hover{
     border: 2px solid white;
 }
+
+.foote{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
