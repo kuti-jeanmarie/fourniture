@@ -130,3 +130,14 @@ h2{
     justify-content: center;
     gap: 40px;
 }
+.foot ul {
+    list-style: none;
+}
+.foot a{
+    text-decoration: none;
+    color: rgb(61, 61, 192);
+    font-size: 20px;
+}
+.foot a:hover{
+    text-decoration:dotted;
+}
