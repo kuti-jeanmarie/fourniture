@@ -124,6 +124,10 @@ h2{
     border: 2px solid white;
 }
 
+footer{
+    background-color: rgb(16, 21, 64);
+    color: white;
+}
 .foote{
     display: flex;
     text-align: center;
@@ -135,9 +139,23 @@ h2{
 }
 .foot a{
     text-decoration: none;
-    color: rgb(61, 61, 192);
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 .foot a:hover{
-    text-decoration:dotted;
+    text-decoration:overline;
+}
+
+.reseaux{
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+    padding:20px;
+}
+.reseau{
+    width;
+}
+.reseau img{
+    width: 40px;
+    height:px;
 }
