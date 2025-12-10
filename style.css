@@ -157,5 +157,23 @@ footer{
 }
 .reseau img{
     width: 40px;
-    height:px;
+    height:35px;
+    margin-top: ;
+    border-radius: 50%;
 }
+
+.image-apropos{
+    background-image: url(./image/stylo\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    animation: changeImageApropos 10s infinite;
+}
+/*@keyframes ChangeImageApropos{
+    0%{background-image: url(./image/stylo\ 1.jpg);}
+    33%{background-image: url(./image/stylos\ modernes.jpg);}
+    66%{background-image: url(./image/agrafeuse\ .jpg);}
+    100%{background-image: url(./image/farde.jpg);}
+}*/
+
