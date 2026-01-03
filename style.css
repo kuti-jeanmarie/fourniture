@@ -183,3 +183,13 @@ footer{
     color: blue;
 }
 
+form{
+    display:block;
+    margin: 40px auto;
+    border: 2px solid rgb(45, 43, 43);
+    padding: 15px;
+    width: 333px;
+    border-radius: 10px;
+
+}
+
