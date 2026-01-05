@@ -30,7 +30,7 @@ header{
 }
 
 .navbar a:hover{
-    border: 2px solid;
+    border: 3px solid;
     color: rgb(172, 171, 171);
     padding: 3px 4px;
     border-radius: 4px;
@@ -56,7 +56,7 @@ header{
 
 .btn a{
     text-decoration: none;
-    border: 2px solid white;
+    border: 4px solid white;
     color: white;
     padding: 4px 5px;
     border-radius: 8px;
@@ -115,7 +115,7 @@ h2{
 
 .produit button{
     font-size: 20px;
-    padding: 8px;
+    padding: 9px;
     border-radius: 10px;
     color: white;
     background-color: darkgreen;
@@ -143,6 +143,7 @@ footer{
     font-size: 20px;
 }
 .foot a:hover{
+<<<<<<< HEAD
     text-decoration:overline;
 }
 
@@ -193,3 +194,7 @@ form{
 
 }
 
+=======
+    text-decoration:dotted;
+}
+>>>>>>> 5941f6ca6b5446febca8bafb82c59bd8c0975dfd
