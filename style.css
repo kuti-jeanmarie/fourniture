@@ -30,10 +30,11 @@ header{
 }
 
 .navbar a:hover{
-    border: 2px solid;
+    text-decoration:overline;
+    /*border: 2px solid;
     color: rgb(172, 171, 171);
-    padding: 3px 4px;
-    border-radius: 4px;
+    padding: 3px 4px;*/
+    border-radius: 10px;
 }
 
 .visuel{
@@ -213,5 +214,12 @@ form select{
     padding: 5px;
     margin: 5px 10px;
     
+}
+form input[type="submit"]{
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    background-color: rgba(47, 255, 109, 0.712);
+    border-radius: 20px;
 }
 
