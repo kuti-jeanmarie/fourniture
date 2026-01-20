@@ -12,11 +12,12 @@ header{
 .navbar{
     display: flex;
     justify-content:;
-    background-color: rgb(39, 67, 116);
+    background-color: rgb(17, 26, 44);
     padding: 8px 9px; 
 }
 
 .navbar ul{
+    list-style-type: none;
     display: flex;
     gap: 20px;
     margin-left: 50%;
