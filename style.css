@@ -97,8 +97,8 @@ h2{
 
 .photo{
     width: 350px;
-    box-shadow: 0 0 10px  rgba(45, 44, 44, 0.1);
-    border-radius: 8px;
+    box-shadow: 0 0 10px  rgba(45, 44, 44, 0.865);
+    border-radius: 10px;
 }
 
 .photo img{
@@ -110,7 +110,7 @@ h2{
 .produit{
     color: white;
     font-size: 21px;
-    text-align: center;
+    /*text-align: center;*/
     background-color: rgb(46, 46, 46);
     border-radius: 8px;
 }
