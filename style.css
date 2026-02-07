@@ -10,6 +10,10 @@ header{
 }
 
 .navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content:;
     background-color: rgb(17, 26, 44);
