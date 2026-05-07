@@ -20,7 +20,7 @@ header{
     padding: 8px 9px; 
 }
 
-.navbar ul{
+/*.navbar ul{
     list-style-type: none;
     display: flex;
     gap: 20px;
@@ -38,31 +38,52 @@ header{
     text-decoration:overline;
     /*border: 2px solid;
     color: rgb(172, 171, 171);
-    padding: 3px 4px;*/
+    padding: 3px 4px;
     border-radius: 11px;
+}*/
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+/*ici c'est pour mettre la couleur dans le liste et enlever les decorations*/
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+/*ici c'est pour le style quand vous etes au dessus d'une liste et tu veux cliquer*/
+.nav-links a:hover{
+    text-decoration:overline;
+    padding: 3px 5px;
+    border-radius: 6px;
 }
 
 .menu-toggle {
   display: none;
   font-size: 28px;
   cursor: pointer;
-  border-radius: 9px;
+  border-radius: 6px;
+  border: 1px  solid white;
+  right: 20%;
   /*background-color:rgb(160, 154, 154);*/
-  border: 2px solid white;
+}
+.menu-toggle:hover {
+    background-color: #e2e0e0;
 }
 
-@media (max-width: 768px) {
-  .nav-links {
+/*responsive cad dans le petit écrat navabr prend la forme ...*/
+@media (max-width: 785px) {
+  .nav-links{
     display: none;
     flex-direction: column;
-    border: 1px solid #5f5f5f;
-    background-color: #494747;
+    border: 1px solid #333;
+    background-color: #656565;
     text-transform: capitalize;
     position:absolute;
     top: 60px;
     right: 15px;
     width: 200px;
-    border-radius: 10px;
+    border-radius: 11px;
   }
 
   .nav-links.active {
@@ -74,6 +95,7 @@ header{
 
   }
 }
+
 
 .visuel{
     text-align: center;
