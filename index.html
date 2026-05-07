@@ -10,12 +10,13 @@
         <header>
             <div class="navbar">
             <div class="logo">MOISE MK</div>
-                <ul>
+                <ul class="nav-links" id="navLinks">
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="apropos.html">A propos</a></li>
-                    <li><a href="produit.html">Produit</a></li>
+                    <li><a href="index.html#produit">Produits</a></li>
                     <li><a href="reservation.html">Reservation</a></li>
                 </ul>
+                <div class="menu-toggle" id="menuToggle">☰</div>
             </div>
         </header> <br>
         <section id="accueil">
@@ -127,4 +128,10 @@
         </div>
     </footer>
 </body>
+<script>
+  // JS simple pour le menu mobile
+  document.getElementById('menuToggle').onclick = function () {
+    document.getElementById('navLinks').classList.toggle('active');
+  };
+</script>
 </html>
